@@ -1,25 +1,24 @@
-# README
+# REST API with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Created REST API with Rails.
 
-Things you may want to cover:
+### Models - User and Fact
 
-* Ruby version
+#### User Model has username and password attribute
 
-* System dependencies
+#### Fact Model has fact, likes and user_id attributes
 
-* Configuration
+### Useful Links
 
-* Database creation
+### Display all users using GET Method: /users
+#### Url: http://localhost:3000/api/v1/users/
 
-* Database initialization
+### Display a specific user using GET Method: /users/[:user_id]
+#### Url: http://localhost:3000/api/v1/users/1
 
-* How to run the test suite
+### Display all facts using GET Method: /users/[:user_id]/facts
+#### Url: http://localhost:3000/api/v1/users/1/facts
 
-* Services (job queues, cache servers, search engines, etc.)
+### Display a specific fact using GET Method: /users/[:user_id]/facts/[:fact_id]
+#### Url: http://localhost:3000/api/v1/users/1/facts/1
 
-* Deployment instructions
-
-* ...
-# rest-api-demo
